@@ -30,15 +30,15 @@ Screenshots from html templates.
 
 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/simple-chatbot.git
-cd simple-chatbot
+   ```bash
+    git clone https://github.com/yourusername/simple-chatbot.git
+    cd simple-chatbot
 
 2. Install the Required Packages
 You can install the required Python packages by running:
 
-```bash
-pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 
 3. Add Your Dataset
 Place your questions_answers.csv file in the root directory of the repository. Ensure that it contains at least three columns: Question, Answer, and Image. The Image column can contain filenames of images stored in a static folder.
@@ -46,8 +46,8 @@ Place your questions_answers.csv file in the root directory of the repository. E
 4. Run the Flask API
 Start the Flask server by running the following command:
 
-```bash
-python chat-bot.py
+   ```bash
+    python chat-bot.py
 
 The API will be available at http://127.0.0.1:5000.
 
@@ -96,6 +96,7 @@ Example response when a matching question is found:
     "answer": "AI stands for Artificial Intelligence, which is a branch of computer science.",
     "image_url": "http://127.0.0.1:5000/static/ai_image.png"
 }
+
 Example response when no matching question is found:
 
 {
@@ -106,8 +107,6 @@ Example response when no matching question is found:
 
 If the user query is not provided, the server will respond with:
 
-json
-Copy code
 {
     "error": "No query provided"
 }
