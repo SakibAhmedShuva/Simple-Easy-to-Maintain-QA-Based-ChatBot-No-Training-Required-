@@ -54,12 +54,14 @@ The API will be available at http://127.0.0.1:5000.
 5. Interact with the Chatbot
 Open the chat-bot.html file in your browser to use the chatbot's web interface. You can ask questions and get answers, along with relevant images (if any).
 
-Example Output:
+## Example Output:
 Sample API Response
 
 {
     "query": "What is AI?",
+    
     "answer": "AI stands for Artificial Intelligence, which is a branch of computer science.",
+    
     "image_url": "http://127.0.0.1:5000/static/ai_image.png"
 }
 
