@@ -1,4 +1,4 @@
-# Simple Q&A Chatbot
+# Simple Q&A Chatbot Flask API with html Template (no training required)
 
 This repository contains a simple and efficient Q&A chatbot built using Flask (backend) and a web interface (frontend). The bot uses TF-IDF and cosine similarity to match user queries with predefined questions and provide corresponding answers and images.
 
