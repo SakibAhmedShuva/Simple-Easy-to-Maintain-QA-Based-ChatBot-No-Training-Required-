@@ -56,14 +56,14 @@ Open the chat-bot.html file in your browser to use the chatbot's web interface. 
 
 ## Example Output:
 Sample API Response
-
-{
-    "query": "What is AI?",
-    
-    "answer": "AI stands for Artificial Intelligence, which is a branch of computer science.",
-    
-    "image_url": "http://127.0.0.1:5000/static/ai_image.png"
-}
+   ```bash
+      {
+          "query": "What is AI?",
+          
+          "answer": "AI stands for Artificial Intelligence, which is a branch of computer science.",
+          
+          "image_url": "http://127.0.0.1:5000/static/ai_image.png"
+      }
 
 Folder Structure:
 simple-chatbot/
