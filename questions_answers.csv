@@ -1,6 +1,8 @@
 Question,Answer,Image
+hi hello,"Hi, Nice to meet you. Ask anything..",
+a,Can you please elaborate,
 What is AI?,"AI stands for Artificial Intelligence, which is a branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.",ai.png
-What is machine learning?,Machine learning is a subset of AI that allows computers to learn from data without being explicitly programmed.,ml.jpg
+What is machine learning ml ?,Machine learning is a subset of AI that allows computers to learn from data without being explicitly programmed.,ml.jpg
 How does AI work?,"AI works by using algorithms and models to simulate human intelligence processes like learning, reasoning, and self-correction.",
 What are neural networks?,"Neural networks are computing systems vaguely inspired by the biological neural networks in human brains, used to recognize patterns in data.",
 What is deep learning?,"Deep learning is a subset of machine learning involving neural networks with three or more layers, enabling large-scale data analysis.",
