@@ -64,7 +64,7 @@ Sample API Response:
           
           "image_url": "http://127.0.0.1:5000/static/ai_image.png"
       }
-
+   ```
 
 **Folder Structure:**
 simple-chatbot/
@@ -75,43 +75,50 @@ simple-chatbot/
 ├── static/                   # Folder for storing image files
 └── requirements.txt           # Required Python packages
 
-Postman API Request Details"
+Postman API Request Details:
 1. API Endpoint (POST Request):
 
-Default URL: http://127.0.0.1:5000/chat-bot
-Method: POST
-Content-Type: application/json
+Default URL: http://127.0.0.1:5000/chat-bot  
+Method: POST  
+Content-Type: application/json  
 Request Body (raw/JSON format):
+
 Example body:
+```json
 {
     "query": "What is AI?"
 }
+```
 
 2. API Response Example:
 
 Response Status: 200 OK
 
 Response Body (JSON format):
-Example response when a matching question is found:
 
+Example response when a matching question is found:
+```json
 {
     "query": "What is AI?",
     "answer": "AI stands for Artificial Intelligence, which is a branch of computer science.",
     "image_url": "http://127.0.0.1:5000/static/ai_image.png"
 }
+```
 
 Example response when no matching question is found:
-
+```json
 {
     "error": "No query provided"
 }
+```
 
 3. Error Handling:
 
 If the user query is not provided, the server will respond with:
-
+```json
 {
     "error": "No query provided"
 }
+```
 Status Code: 400 Bad Request
 
