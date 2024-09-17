@@ -10,6 +10,7 @@ This repository contains a simple and efficient Q&A chatbot built using Flask (b
 - **Easy integration**: Works with a simple web-based UI for users to interact with the bot.
 - **Custom dataset**: Works with a CSV file of predefined questions, answers, and associated images.
 - **Image support**: Returns both an answer and an associated image (if available) for the best matching query.
+- Sample html template included in the repository
 
 ![{39FB4FF7-AD7B-4F0B-A79D-1BA39A3480B7}](https://github.com/user-attachments/assets/2da6953d-4fac-4bc7-a490-840c97a5ae52)
 
