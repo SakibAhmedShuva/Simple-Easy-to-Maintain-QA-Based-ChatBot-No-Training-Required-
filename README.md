@@ -55,7 +55,7 @@ The API will be available at http://127.0.0.1:5000.
 Open the chat-bot.html file in your browser to use the chatbot's web interface. You can ask questions and get answers, along with relevant images (if any).
 
 ## Example Output:
-Sample API Response
+Sample API Response:
    ```bash
       {
           "query": "What is AI?",
@@ -64,8 +64,9 @@ Sample API Response
           
           "image_url": "http://127.0.0.1:5000/static/ai_image.png"
       }
-#
-Folder Structure:
+
+
+**Folder Structure:**
 simple-chatbot/
 │
 ├── chat-bot.py               # Flask API for Q&A chatbot
