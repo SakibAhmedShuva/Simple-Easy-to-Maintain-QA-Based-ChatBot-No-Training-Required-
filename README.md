@@ -33,7 +33,7 @@ Screenshots from html templates.
 
    ```bash
     git clone https://github.com/SakibAhmedShuva/Simple-QA-ChatBot-Flask-API-No-Training-Required.git
-    cd simple-chatbot
+    cd Simple-QA-ChatBot-Flask-API-No-Training-Required
 
 2. Install the Required Packages
 You can install the required Python packages by running:
