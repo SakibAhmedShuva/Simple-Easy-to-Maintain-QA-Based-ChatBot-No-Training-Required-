@@ -32,7 +32,7 @@ Screenshots from html templates.
 1. Clone the Repository
 
    ```bash
-    git clone https://github.com/yourusername/simple-chatbot.git
+    git clone https://github.com/SakibAhmedShuva/Simple-QA-ChatBot-Flask-API-No-Training-Required.git
     cd simple-chatbot
 
 2. Install the Required Packages
