@@ -123,3 +123,6 @@ If the user query is not provided, the server will respond with:
 ```
 Status Code: 400 Bad Request
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
